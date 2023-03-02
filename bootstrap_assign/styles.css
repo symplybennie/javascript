@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .container-fluid{
+    /* margin-top: 0; */
+    background-image: url('images/wallpaper.jpg');
+    width: 100%;
+    height: 40em;
+    background-size: cover;
+    background-position: center;
+}
+header ul li{
+    margin-top: 1.5em;
+    font-size: 1.25em;
+    
+}
+header .nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    width: 70%;
+    margin-top: 5em;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2em;
+}
+.hero h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+.hero p{
+    font-size: 1.25em;
+}
+.hero .btn{
+    width: 10em;
+}
+
+/* start of section 1  - About */
+.section-one{
+    margin: 4em 0;
+    /* gap: 1.5em; */
+}
+.card{
+    width: 300px;
+    margin-top: 2em;
+}
+.card a{
+    margin-left: 3em;
+}
+.col-md-4 .d-flex{
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 2em;
+}
+.col-md-4 .col{
+    width: 80%;
+}
+.small-btn{
+    font-size: 0.6em;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    padding: 20px;
+    background-color: rgb(6, 6, 29);
+    width: 30%;
+    margin-left: 450px;
+}
+.title h1:hover{
+    background-color: #fff;
+    color: rgb(6, 6, 29);
+}
+.title h1 a:hover{
+    background-color: #fff;
+    color: rgb(6, 6, 29);
+}
+.title h1 a{
+    text-decoration: none;
+    color: white;
+}
+.title p{
+    margin-top: 20px;
+    margin-left: 190px;
+    font-size: 1.25rem;
+    width: 70%;
+    
+}
+.title a{
+    text-decoration: none;
+    color: red;
+    /* margin-top: 10px; */
+}
+.title a:hover{
+   
+    background-color: rgb(6, 6, 29);
+    color: white;
+    padding: 5px;
+}
+.section-one hr{
+    /* padding-top: 50px; */
+    padding: 20px;
+    /* margin: 10px; */
+}
+
+.section-one .side-links ul a{
+            color: rgb(6, 6, 29);
+        }
+/* end of section 1 - About*/
+
+/* start of section 2  - products*/
+
+
+.section-two{
+    margin: 4em 0;
+    /* gap: 1.5em; */
+}
+/* end of section 2 - Products */
+
+/* start of section 3 - Blog */
+
+.section-three{
+    margin: 4em 0;
+    /* gap: 1.5em; */
+}
+.blog-box{
+    border: 1px solid grey;
+    box-shadow: 2px 2px solid grey;
+    padding: 20px;
+}
+.blog-box .box{
+    margin: 20px 0;
+}
+.blog-box .box a{
+    text-decoration: none; 
+    color: rgb(6, 6, 29);
+    
+}
+.blog-box .box a:hover{
+    background-color: rgb(6, 6, 29);
+    color: white;
+    padding: 10px;
+} 
+/* end of section 3 - Blog */
+
+
+/* start of section 4 - contact */
+.section-four{
+    margin: 4em 0;
+    /* gap: 1.5em; */
+}
+.section-four .form{
+    width: 500px;
+    padding: 20px;
+    margin-left: 400px;
+    border: 1px solid grey;
+   /* margin-top: 10px; */
+}
+.section-four .form #submit{
+    padding: 10px;
+}
+.section-four .form #submit:hover{
+    background-color: rgb(6, 6, 29);
+    color: white;
+    padding: 10px;
+}
+/* end of section 4 - contact */
+
+/* start of footer */
+footer{
+    background-color: rgb(6, 6, 29);
+    padding: 5em;
+}
+.row .col-md-3 p{
+    margin: 10px 30px;
+    color: #fff;
+}
+.row ul li{
+    list-style: none;
+}
+.row ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .form .submit{
+    padding: 20px;
+    font-size: .8rem;
+}
+
+/* end of footer */
+@media screen and (max-width: 780px){
+    
+    
+    
+    
+    ul li{
+        font-size: 1em;
+        
+    }
+    .hero{
+        width: 80%;
+    }
+    .hero h1{
+        font-size: 1.5em;
+        
+    }
+    .hero p{
+        font-size: 1em;
+    }
+    .title h1{
+        width: 50%;
+        margin-left: 100px;
+    }
+    .title p{
+        margin-left: 80px;
+        width: 60%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .row .card{
+        margin-left: 50px;
+    }
+}
